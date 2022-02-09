@@ -28,10 +28,9 @@ def exchange_rate(currency, bitcoin):
 
 def calc_sales_amount(bit_amount, trans_amount):
      amount = bit_amount + trans_amount
-
-
-amount = calc_sales_amount()
-print("You can sell at", amount, "without making a loss")
+    amount = calc_sales_amount()
+    print("You can sell at", amount, "without making a loss")
+    
 
 """
 print('Amount in crypto choose  A and  Amount in  your currency choose B ')
